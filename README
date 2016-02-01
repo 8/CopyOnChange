@@ -1,0 +1,9 @@
+Summary: CopyOnChange is a simple command line tool that copies a file if it changes.
+Author:  Martin Kramer <martin.kramer@lostindetails.com>
+License: MIT
+
+Description:
+  The source and target file are be specified using arguments and a change in the file is detected by using the FileSystemWatcher and listening for LastWrite and CreationTime changes.
+
+Usage:
+  CopyOnChange -s source.txt -t target.txt
